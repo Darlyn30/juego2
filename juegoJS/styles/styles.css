@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.pantalla {
+    width: 600px;
+    height: 400px;
+    background-color: black;
+}
+
+.fondo {
+    width: 600px;
+    height: 400px;
+    opacity: 1;
+    animation: fadeOut 2s;
+}
+
+.title {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 90px;
+    color: #FF4500;
+    opacity: 1;
+    font-size: 40px;
+    animation: fadeOut 2s;
+    
+}
+
+.mapa {
+    width: 600px;
+    height: 400px;
+    display: none;
+}
+
+.player {
+    position: absolute;
+    width: 50px;
+    margin-top: -70px;
+    display: none;
+}
